@@ -85,3 +85,61 @@ main {
     width: 100%;
     height: 100%;
 }
+
+.principal {
+    width: 952px;
+    margin: 20px;
+    gap: 10px;
+}
+
+.principal>img {
+    width: 952px;
+    height: 537px;
+}
+
+.principal .botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 902px;
+}
+
+.principal aside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.principal .botoes div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+#inscreva{
+    background-color: #ff0000;
+    padding: 10px;
+    color: #fff;
+}
+
+.principal .botoes div#perfilCanal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.principal .botoes div#perfilCanal div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.descricao {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
