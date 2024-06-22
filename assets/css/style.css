@@ -116,7 +116,8 @@ main {
     align-items: center;
     gap: 8px;
 }
-#inscreva{
+
+#inscreva {
     background-color: #ff0000;
     padding: 10px;
     color: #fff;
@@ -142,4 +143,25 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.segundario {
+    width: 30%;
+}
+
+.segundario .videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.segundario .videos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-weight: 300;
 }
